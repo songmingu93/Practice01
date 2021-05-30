@@ -2,15 +2,15 @@ package com.javaex.practice;
 
 public class Ex07 {
 
-	public static void main(String[] args) 
+	public static void main(String[] args) { 
+	
 		int i = 10;
-		int n = ++1 %2;
-		
-		System.out.println(i);
-		System.out.println(n);
-		
-		// 먼저 더하고 출력한다.
-		
+		int n = ++i %2;
+	
+		System.out.println(i);	//11
+		System.out.println(n);	//1
+
+
 	}
 
 }
